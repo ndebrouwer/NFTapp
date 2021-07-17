@@ -17,7 +17,7 @@ contract NFT is ERC721 {
   }
 
   function _baseURI() internal view override returns (string memory) {
-    return '';
+    return 'https://tranquil-crag-14085.herokuapp.com/';
   }
 
 }
